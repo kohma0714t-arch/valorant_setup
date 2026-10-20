@@ -13,3 +13,25 @@ Desktop.ini
 # Temporary Files
 *.tmp
 *.bak
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# Env
+.env
+.env*.local
+
+# Vercel / Supabase
+.vercel
+supabase/.temp/
+
+# Secrets / Credentials
+client_secret*.json
+*.pem
+*.key
+
